@@ -1,0 +1,16 @@
+{
+  "name": "meses",
+  "version": "1.0.0",
+  "description": "numero em meses",
+  "main": "meses.js",
+  "dependencies": {
+    "integer-limit": "^1.0.0",
+    "string-length": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Yokoo",
+  "license": "ISC"
+}
