@@ -1,4 +1,4 @@
-function meses(num) {
+var meses = function (num) {
   switch (num) {
     case (num = 1):
       return 'janeiro';
@@ -39,6 +39,6 @@ function meses(num) {
     default:
       return 'não é mês';
   }
-}
+};
 
-exports.meses = meses();
+module.exports = meses;
